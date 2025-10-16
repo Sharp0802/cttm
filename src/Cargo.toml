@@ -1,0 +1,11 @@
+[package]
+name = "cttm"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+build = []
+
+[dependencies]
+glob = "0.3.3"
+thiserror = "2.0.17"

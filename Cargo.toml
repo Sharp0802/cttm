@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "sample",
+    "src",
+]
+resolver = "3"
