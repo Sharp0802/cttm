@@ -1,0 +1,23 @@
+employees: &[Employee]
+---
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>List of employees:</h1>
+
+<ul>
+#for e in employees {
+    <li><a href="/${ e.id }">
+    #if e.id == 0 {
+        <b>${ e.name }</b>
+    #}
+    #else {
+        ${ e.name }
+    #}
+    </a></li>
+#}
+</ul>
+
+</body>
+</html>
